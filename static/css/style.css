@@ -88,15 +88,3 @@ h1 {
 footer {
     margin-top: 20px;
 }
-
-.dice {
-    display: inline-block;
-    background-color: white;
-    text-align: center;
-    border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-
-}
