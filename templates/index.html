@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>速記法則</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<h1>{{ title }}</h1>
+
+<form method="POST" action="/" class="search_container">
+    <input type="text" name="housoku" size="40" placeholder="キーワード検索" >
+    <input type="submit" value="検索">
+</form>
+
+<div>
+    <div class="housoku">
+    {% if housoku %}
+    <img src="/static/images/{{ housoku }}.png" alt="速記{{ housoku }}">
+    {% else %}
+    <img src="/static/images/question.png" alt="はてな">
+    {% endif %}
+    </div>
+</div>
+
+<footer>Copyright 2018 PyQ</footer>
+</body>
+</html>
