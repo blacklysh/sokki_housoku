@@ -1,17 +1,14 @@
+@charset "utf-8";
 html {
     height:100%;
 }
 
 body {
-    margin:0;
+    background-color: #444444;
 }
 
 h1 {
     text-align: center;
-}
-
-.back_color {
-    background-color: #444444;
 }
 
 .search_container {
