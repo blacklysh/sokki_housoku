@@ -357,7 +357,3 @@
   background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), -webkit-radial-gradient(at 50% 87%, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
   background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), radial-gradient(at 50% 87%, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
   background-blend-mode: multiply,normal; }
-
-footer {
-    margin-top: 20px;
-}
