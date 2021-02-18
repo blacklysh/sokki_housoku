@@ -10,11 +10,11 @@ h1 {
     text-align: center;
 }
 
-.back_color{
+.back_color {
     background-color: #444444;
 }
 
-.search_container{
+.search_container {
     box-sizing: border-box;
     position: relative;
     border: 1px solid #999;
