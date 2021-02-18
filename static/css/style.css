@@ -4,10 +4,12 @@ body {
 }
 
 h1 {
+    color: white;
     text-align: center;
 }
 
 footer {
+    color: white;
     margin-top: 20px;
 }
 
