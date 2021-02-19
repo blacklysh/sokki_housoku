@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
-@app.route('/')
+@app.route('/search.html')
 def search():
     return render_template('search.html')
 
