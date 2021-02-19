@@ -2,6 +2,11 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
+@app1.route('/')
+def home():
+    return render_template('index.html')
+
+
 @app.route('/', methods=['GET'])
 def get():
 	return render_template('search.html', \
