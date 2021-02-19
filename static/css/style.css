@@ -63,9 +63,21 @@ h2{
 	font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
 }
 
-img{
+.image img{
 	max-width: 100%;
 	height: auto;
+}
+
+.image p{
+	position: absolute;
+    	width: 100%;
+    	left: 0; 
+    	top: calc(50% - 25px); 
+    	text-align: center; 
+    	color: darkblue; 
+    	font-weight: bold; 
+    	font-size: 50px;
+    	line-height: 50px;
 }
 
 section{
