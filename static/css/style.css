@@ -63,21 +63,21 @@ h2{
 	font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
 }
 
-.content{
-    	position: relative;
+.text {/*親div*/
+  	position: relative;/*相対配置*/
 }
 
-.content div.text{
+.text p {
 	position: absolute;
-	width: 100%;
-    	left: 0; 
-    	top: calc(50% - 25px); 
-    	text-align: center; 
-    	color: white; 
-    	font-weight: bold; 
-    	font-size: 50px;
-    	line-height: 50px;
+  	top: 50%;
+  	left: 50%;
+  	-ms-transform: translate(-50%,-50%);
+  	-webkit-transform: translate(-50%,-50%);
+  	transform: translate(-50%,-50%);
+  	margin:0;
+  	padding:0;
 }
+
 
 section{
   clear: both;
