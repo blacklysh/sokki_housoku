@@ -76,10 +76,14 @@ h2{
   	transform: translate(-50%,-50%);
   	margin:0;
   	padding:0;
+	color: white;/*文字は白に*/
+  	font-weight: bold; /*太字に*/
+  	font-size: 2em;/*サイズ2倍*/
+  	font-family :Quicksand, sans-serif;
 }
 
 .text img{
-	width: 70%;
+	width: 85%;
 }
 
 
