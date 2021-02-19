@@ -78,6 +78,10 @@ h2{
   	padding:0;
 }
 
+.text img{
+	width: 70%;
+}
+
 
 section{
   clear: both;
