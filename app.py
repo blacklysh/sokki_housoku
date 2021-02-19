@@ -6,6 +6,10 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
+@app.route('/')
+def search():
+    return render_template('search.html')
+
 
 @app.route('/', methods=['GET'])
 def get():
