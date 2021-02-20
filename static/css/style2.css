@@ -18,8 +18,7 @@ footer {
     left:0;
     top:0; 	
     outline:0;/*クリック時の青い枠線消す*/	
-    height:30px;/*検索ボックスの高さ*/	
-    padding:0px;/*テキスト位置調整*/	 		
+    height:30px;/*検索ボックスの高さ*/		 		
     background:#eee;/*検索ボックスの背景カラー*/	
 }
 .search_container input[type="text"]{
@@ -31,7 +30,7 @@ footer {
 }
 .search_container input[type="submit"]{
     width:70px;/*検索ボタンの横幅*/ 
-    height:30px;/*検索ボタンの縦幅*/ 
+    height:33px;/*検索ボタンの縦幅*/ 
     position:absolute;/*検索ボタンの絶対位置*/  
     left:250px;/*検索ボタンの位置調整*/  
     top:0;
