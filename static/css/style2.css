@@ -14,14 +14,14 @@ footer {
 }
 
 .search_container {
-    box-sizing: border-box;
-    position: relative;
-    border: 1px solid #999;
-    display: block;
-    padding: 3px 10px;
-    height: 2.3em;
-    width: 260px;
-    overflow: hidden;
+    position:absolute;/*フォームの絶対位置*/	
+    left:0;
+    top:0; 	
+    outline:0;/*クリック時の青い枠線消す*/	
+    height:50px;/*検索ボックスの高さ*/	
+    padding:0 10px;/*テキスト位置調整*/	 
+    border-radius:2px 0 0 2px;/*検索ボックスの角を丸める*/		
+    background:#eee;/*検索ボックスの背景カラー*/	
 }
 .search_container input[type="text"]{
     border: none;
@@ -31,18 +31,16 @@ footer {
     outline: 0;
 }
 .search_container input[type="submit"]{
-    cursor: pointer;
-    font-family: FontAwesome;
-    font-size: 1.3em;
-    border: none;
-    background: none;
-    color: #3879D9;
-    position: absolute;
-    width: 2.5em;
-    height: 2.5em;
-    right: 0;
-    top: -10px;
-    outline : none;
+    width:70px;/*検索ボタンの横幅*/ 
+    height:50px;/*検索ボタンの縦幅*/ 
+    position:absolute;/*検索ボタンの絶対位置*/  
+    left:270px;/*検索ボタンの位置調整*/  
+    top:0;
+    background:#7fbfff;/*検索ボタンの背景カラー*/ 
+    border:none;/*検索ボタンの枠線を消す*/ 
+    color:#fff;/*検索ボタンのテキストカラー*/ 
+    font-weight:bold;/*検索ボタンのテキスト太字*/ 
+    font-size:16px;/*検索ボタンのフォントサイズ*/ 
 }
 
 .housoku {
