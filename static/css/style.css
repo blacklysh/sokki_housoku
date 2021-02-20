@@ -83,7 +83,7 @@ h2{
 }
 
 .text img{
-	width: 80vw;
+	width: 0vw;
 }
 
 
@@ -161,11 +161,6 @@ section h2 span {
 	margin-bottom: 5px;
 }
 
-.col2 li{
-	display: inline-block;
-	width: 100%;
-  margin: 20px 0;
-}
 
 #map{
 	position: relative;
@@ -240,20 +235,6 @@ section h2 span {
 		opacity: .8;
 	}
 	
-	/* SEC03 BRAND
-	-----------------*/
-	.col4{
-		text-align: center;
-	}
-
-	.col4 li{
-		display: inline-block;
-		width: 18%;
-		padding: 0 3%;
-		vertical-align: top;
-		text-align: left;
-	}
-	
 	#map iframe{
 		height: 200px !important;
   }
@@ -263,26 +244,10 @@ section h2 span {
 	}
 }
 
-
-@media only screen and (min-width: 641px){
-	.col2 li{
-		width: 60%;
-		vertical-align: top;
-	}
-	.col2 li:first-child{
-		width: 35%;
-		padding-right: 4%;
-	}
-}
-
 @media only screen and (max-width: 640px){
 	.innerS{
 		width: 94%;
 		padding-bottom: 30px;
-	}
-	#gallery li{
-		float: none;
-		width: 100%;
 	}
 	.article img{
 		float: none;
