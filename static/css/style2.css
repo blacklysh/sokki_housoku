@@ -25,7 +25,7 @@ footer {
 }
 .search_container input[type="text"]{
     border: none;
-    height: 2.0em;
+    height: 50px;
 }
 .search_container input[type="text"]:focus {
     outline: 0;
