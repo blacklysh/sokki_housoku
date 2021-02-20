@@ -19,8 +19,7 @@ footer {
     top:0; 	
     outline:0;/*クリック時の青い枠線消す*/	
     height:30px;/*検索ボックスの高さ*/	
-    padding:0 10px;/*テキスト位置調整*/	 
-    border-radius:2px 0 0 2px;/*検索ボックスの角を丸める*/		
+    padding:0px;/*テキスト位置調整*/	 		
     background:#eee;/*検索ボックスの背景カラー*/	
 }
 .search_container input[type="text"]{
