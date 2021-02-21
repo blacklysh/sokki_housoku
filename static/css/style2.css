@@ -18,19 +18,19 @@ footer {
     left:0;
     top:0; 	
     outline:0;/*クリック時の青い枠線消す*/	
-    height:30px;/*検索ボックスの高さ*/		 		
+    height:50px;/*検索ボックスの高さ*/		 		
     background:#eee;/*検索ボックスの背景カラー*/	
 }
 .search_container input[type="text"]{
     border: none;
-    height: 30px;
+    height: 50px;
 }
 .search_container input[type="text"]:focus {
     outline: 0;
 }
 .search_container input[type="submit"]{
     width:70px;/*検索ボタンの横幅*/ 
-    height:33px;/*検索ボタンの縦幅*/ 
+    height:53px;/*検索ボタンの縦幅*/ 
     position:absolute;/*検索ボタンの絶対位置*/  
     left:250px;/*検索ボタンの位置調整*/  
     top:0;
@@ -46,8 +46,8 @@ footer {
     background-color: white;
     text-align: center;
     border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
