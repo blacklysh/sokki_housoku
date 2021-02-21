@@ -83,7 +83,7 @@ h2{
 }
 
 .text img{
-	max-width: 100%;
+	width: 98px;
 	height: auto;
 }
 
@@ -201,21 +201,21 @@ section h2 span {
 	}
 	
 	.innerS2{
-		width: 60%;
+		width: 94%;
 		margin: 0 auto;
-		padding-bottom: 80px;
+		padding-bottom: 30px;
 	}
 
 	.innerS3{
-		width: 60%;
+		width: 94%;
 		margin: 0 auto;
-		padding-bottom: 80px;
+		padding-bottom: 30px;
 	}
 
 	.innerS4{
-		width: 60%;
+		width: 94%;
 		margin: 0 auto;
-		padding-bottom: 80px;
+		padding-bottom: 30px;
 	}
 	
 }
