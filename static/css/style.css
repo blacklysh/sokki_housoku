@@ -83,7 +83,8 @@ h2{
 }
 
 .text img{
-	width: 98px;
+	max-width: 100%;
+	height: auto;
 }
 
 
@@ -138,49 +139,6 @@ section h2 span {
 	padding-bottom: 80px;
 }
 
-.article{
-	clear: both;
-	overflow: hidden;
-	padding-bottom: 50px;
-}
-
-.article img{
-	float: left;
-	margin: 5px 20px 20px;
-}
-
-.article p{
-	margin-bottom: 20px;
-}
-
-
-
-/* SEC05 COMPANY
-------------------------------------------------------------*/
-#sec05 p{
-	margin-bottom: 5px;
-}
-
-
-#map{
-	position: relative;
-	padding-bottom: 75%;
-	height: 0;
-	overflow: hidden;
-	z-index: 0;
-}
-
-#map iframe{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100% !important;
-	height: 100% !important;
-	border: 0;
-}
-
-
-
 /* RESPONSIVE 設定
 ------------------------------------------------------------*/
 
@@ -212,32 +170,15 @@ section h2 span {
 	.panel{
 		display:block !important;
 	}
-	
-	#sidebar h1{
-		padding: 30px 0;
-	}
 
 	#mainnav li{
 		font-size: 14px;
 		padding: 10px 0;
 	}
 	
-	#sns{
-		margin-top: 50px;
-	}
-	
-	#sns li{
-		display: inline-block;
-		padding-right: 10px;
-	}
-
-	#sns a:hover img{
+	#mainnav a:hover img{
 		opacity: .8;
 	}
-	
-	#map iframe{
-		height: 200px !important;
-  }
 	
   #footer{
 		padding: 30px 10px 70px 0;
@@ -249,14 +190,10 @@ section h2 span {
 		width: 94%;
 		padding-bottom: 30px;
 	}
-	.article img{
+	.text img{
 		float: none;
 		display: block;
 		margin: 0 auto 20px;
-	}
-	#map iframe{
-		width: 96% !important;
-		left: 2%;
 	}
 }
 
@@ -273,16 +210,6 @@ section h2 span {
 		height: 60px;
 		background: #fff;
 		border-bottom: 1px solid #ccc;
-	}
-	
-	#sidebar h1{
-		text-align: center;
-		padding-top: 15px;
-	}
-	
-	#sidebar h1 img{
-		width: auto !important;
-		max-height: 25px;
 	}
 	
   a#menu{
@@ -388,18 +315,7 @@ section h2 span {
 		-webkit-transform: rotate(45deg);
 		transform: rotate(45deg);
 	}
-	#mainnav #sns li{
-		display: inline-block;
-	}
-	#mainnav #sns li a{
-		position: relative;
-		display: inline-block;
-		padding: 15px 10px 0;
-		border: 0;
-	}
-	#mainnav #sns li a:before{
-		border: 0;
-	}
+
 	.col4 li{
 		margin: 0 auto 50px;
 		display: block;
