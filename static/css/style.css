@@ -176,7 +176,16 @@ section h2 span {
 		padding: 10px 0;
 	}
 	
-	#mainnav a:hover img{
+	#sns{
+		margin-top: 50px;
+	}
+	
+	#sns li{
+		display: inline-block;
+		padding-right: 10px;
+	}
+
+	#sns a:hover img{
 		opacity: .8;
 	}
 	
@@ -190,11 +199,25 @@ section h2 span {
 		width: 94%;
 		padding-bottom: 30px;
 	}
-	.text img{
-		float: none;
-		display: block;
-		margin: 0 auto 20px;
+	
+	.innerS2{
+		width: 60%;
+		margin: 0 auto;
+		padding-bottom: 80px;
 	}
+
+	.innerS3{
+		width: 60%;
+		margin: 0 auto;
+		padding-bottom: 80px;
+	}
+
+	.innerS4{
+		width: 60%;
+		margin: 0 auto;
+		padding-bottom: 80px;
+	}
+	
 }
 
 @media only screen and (max-width: 799px){
@@ -212,12 +235,12 @@ section h2 span {
 		border-bottom: 1px solid #ccc;
 	}
 	
-  a#menu{
-  	display: inline-block;
-  	position: relative;
-  	width: 40px;
-  	height: 40px;
-  	margin: 10px;
+  	a#menu{
+  		display: inline-block;
+  		position: relative;
+  		width: 40px;
+  		height: 40px;
+  		margin: 10px;
 	}
 
 	#menuBtn{
@@ -315,11 +338,17 @@ section h2 span {
 		-webkit-transform: rotate(45deg);
 		transform: rotate(45deg);
 	}
-
-	.col4 li{
-		margin: 0 auto 50px;
-		display: block;
-		text-align: center;
+	#mainnav #sns li{
+		display: inline-block;
+	}
+	#mainnav #sns li a{
+		position: relative;
+		display: inline-block;
+		padding: 15px 10px 0;
+		border: 0;
+	}
+	#mainnav #sns li a:before{
+		border: 0;
 	}
 	section h2{
 		margin: 55px auto;
