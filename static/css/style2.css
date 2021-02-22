@@ -9,6 +9,11 @@ h1 {
     margin-bottom: 100px;
 }
 
+.text img {
+    max-width:100%;
+    height: auto;
+}
+
 footer {
     color: white;
     margin-top: 20px;
