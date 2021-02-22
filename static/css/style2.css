@@ -1,5 +1,5 @@
 body {
-    background-color: silver;
+    background-image: url("/static/images/haikei.jpg");
     text-align: center;
 }
 
@@ -7,11 +7,6 @@ h1 {
     color: #555555;
     text-align: center;
     margin-bottom: 100px;
-}
-
-.text img {
-    max-width:100%;
-    height: auto;
 }
 
 footer {
