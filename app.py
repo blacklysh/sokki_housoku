@@ -18,7 +18,7 @@ def search():
 @app.route('/', methods=['GET'])
 def get():
 	return render_template('search.html', \
-		title = '速記法則', \
+		title = 'Search', \
 		message = '名前を入力して下さい。')
 
 @app.route("/", methods=['POST'])
