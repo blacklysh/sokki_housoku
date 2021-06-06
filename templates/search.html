@@ -13,6 +13,14 @@
     <input type="submit" value="検索">
 </form>
 <a href="/index.html">TOPへ</a>
+
+<div class="housoku">
+    {% if housoku %}
+    <img src="/static/images/{{ housoku }}.png?2021012406" alt="速記{{ housoku }}">
+    {% else %}
+    <img src="/static/images/question.png" alt="はてな">
+    {% endif %}
+</div>
     
 <div class="area" >
             <ul class="circles">
@@ -28,15 +36,5 @@
                     <li></li>
             </ul>
 </div >
-    
-<div>
-    <div class="housoku">
-    {% if housoku %}
-    <img src="/static/images/{{ housoku }}.png?2021012406" alt="速記{{ housoku }}">
-    {% else %}
-    <img src="/static/images/question.png" alt="はてな">
-    {% endif %}
-    </div>
-</div>
 </body>
 </html>
