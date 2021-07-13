@@ -10,10 +10,6 @@ body{
     font-family: 'Exo', sans-serif;
 }
 
-.housoku {
-    position:center;
-}
-
 .search_container {
     position:absolute;/*フォームの絶対位置*/	
     left:0;
