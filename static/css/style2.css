@@ -1,14 +1,16 @@
-
-@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
-
-*{
-    margin: 0px;
-    padding: 0px;
+body {
+    background-color: #99FFFF;
+    text-align: center;
 }
 
-body{
-    font-family: 'Exo', sans-serif;
+h1 {
+    color: #555555;
     text-align: center;
+}
+
+footer {
+    color: white;
+    margin-top: 20px;
 }
 
 .search_container {
