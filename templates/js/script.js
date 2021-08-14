@@ -1,6 +1,3 @@
 /*
-Background Gradients From -- 
-https://uigradients.com
+From https://cssanimation.rocks/courses/animation-101/
 */
-
-
