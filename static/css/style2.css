@@ -1,13 +1,10 @@
 body {
     background-color: gray;
+    text-align: center;
 }
 
 h1 {
     color: #555555;
-    text-align: center;
-}
-
-a {
     text-align: center;
 }
 
