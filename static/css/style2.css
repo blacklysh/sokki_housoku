@@ -1,6 +1,3 @@
-$animation-duration: 5s;
-$highlight-color: #38b449;
-
 body {
     background-color: #000;
     text-align: center;
@@ -59,29 +56,39 @@ h1 {
   background: #22BDA0;
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   left: 0;
   right: 0;
+}
 
-  .hero-image {
-    position: absolute;
-    bottom: -20%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 56.25em;
-  }
+.post-header .hero-image {
+  position: absolute;
+  bottom: -20%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 56.25em;
 }
 
 .hero-image-container {
-  animation: hero-fade-in 1s 0.5s linear forwards;
+  -webkit-animation: hero-fade-in 1s 0.5s linear forwards;
+          animation: hero-fade-in 1s 0.5s linear forwards;
   opacity: 0;
   overflow: hidden;
   position: relative;
   height: 100%;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   width: 56.25em;
   height: 26em;
+}
+
+@-webkit-keyframes hero-fade-in {
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes hero-fade-in {
@@ -91,7 +98,8 @@ h1 {
 }
 
 .window-background {
-  animation: background-color $animation-duration cubic-bezier(.81,-0.46,.19,1.33) infinite;
+  -webkit-animation: background-color 5s cubic-bezier(0.81, -0.46, 0.19, 1.33) infinite;
+          animation: background-color 5s cubic-bezier(0.81, -0.46, 0.19, 1.33) infinite;
   position: absolute;
   height: 40em;
   width: 30em;
@@ -99,7 +107,8 @@ h1 {
 }
 
 .screen-container {
-  animation: move-emails $animation-duration infinite ease-out;
+  -webkit-animation: move-emails 5s infinite ease-out;
+          animation: move-emails 5s infinite ease-out;
   position: absolute;
   width: 7.6em;
   height: 6em;
@@ -107,11 +116,13 @@ h1 {
   background: #fff url(//cssanimation.rocks/images/courses/animation_101/emails.svg) repeat-y;
   background-size: 100% auto;
   left: 50%;
-  transform: translate(-16.4%, -10%);
+  -webkit-transform: translate(-16.4%, -10%);
+          transform: translate(-16.4%, -10%);
 }
 
 .notification {
-  animation: move-notification $animation-duration infinite cubic-bezier(.81,-0.46,.19,1.33);
+  -webkit-animation: move-notification 5s infinite cubic-bezier(0.81, -0.46, 0.19, 1.33);
+          animation: move-notification 5s infinite cubic-bezier(0.81, -0.46, 0.19, 1.33);
   position: absolute;
   bottom: 62%;
   left: 65%;
@@ -122,7 +133,8 @@ h1 {
 }
 
 .moon {
-  animation: moon $animation-duration infinite linear;
+  -webkit-animation: moon 5s infinite linear;
+          animation: moon 5s infinite linear;
   position: absolute;
   left: 25%;
   top: 3%;
@@ -130,12 +142,13 @@ h1 {
   background-size: 100%;
   height: 25%;
   width: 8%;
-  transform-origin: 30% 350%;
+  -webkit-transform-origin: 30% 350%;
+          transform-origin: 30% 350%;
 }
 
-@keyframes background-color {
+@-webkit-keyframes background-color {
   0% {
-   background: #011;
+    background: #011;
   }
   20%, 30% {
     background: #5ab6fc;
@@ -145,10 +158,23 @@ h1 {
   }
 }
 
-@keyframes move-emails {
+@keyframes background-color {
+  0% {
+    background: #011;
+  }
+  20%, 30% {
+    background: #5ab6fc;
+  }
+  100% {
+    background: #011;
+  }
+}
+
+@-webkit-keyframes move-emails {
   0%, 24% {
     background-position: 0 -4.6em;
-    animation-timing-function: cubic-bezier(.81,-0.46,.19,1.33);
+    -webkit-animation-timing-function: cubic-bezier(0.81, -0.46, 0.19, 1.33);
+            animation-timing-function: cubic-bezier(0.81, -0.46, 0.19, 1.33);
   }
   34%, 60% {
     background-position: 0 0;
@@ -158,29 +184,83 @@ h1 {
   }
 }
 
-@keyframes move-notification {
+@keyframes move-emails {
+  0%, 24% {
+    background-position: 0 -4.6em;
+    -webkit-animation-timing-function: cubic-bezier(0.81, -0.46, 0.19, 1.33);
+            animation-timing-function: cubic-bezier(0.81, -0.46, 0.19, 1.33);
+  }
+  34%, 60% {
+    background-position: 0 0;
+  }
+  90%, 100% {
+    background-position: 0 -78%;
+  }
+}
+
+@-webkit-keyframes move-notification {
   0%, 20% {
-   transform: translateX(.25em);
-   opacity: 0;
+    -webkit-transform: translateX(0.25em);
+            transform: translateX(0.25em);
+    opacity: 0;
   }
   50%, 58% {
-    transform: none;
+    -webkit-transform: none;
+            transform: none;
     opacity: 1;
   }
   70%, 100% {
-    transform: translateX(-.25em);
+    -webkit-transform: translateX(-0.25em);
+            transform: translateX(-0.25em);
     opacity: 0;
+  }
+}
+
+@keyframes move-notification {
+  0%, 20% {
+    -webkit-transform: translateX(0.25em);
+            transform: translateX(0.25em);
+    opacity: 0;
+  }
+  50%, 58% {
+    -webkit-transform: none;
+            transform: none;
+    opacity: 1;
+  }
+  70%, 100% {
+    -webkit-transform: translateX(-0.25em);
+            transform: translateX(-0.25em);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes moon {
+  0% {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-animation-timing-function: cubic-bezier(0.25, 0, 0.41, 1);
+            animation-timing-function: cubic-bezier(0.25, 0, 0.41, 1);
+  }
+  100% {
+    -webkit-transform: rotateZ(-360deg);
+            transform: rotateZ(-360deg);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
   }
 }
 
 @keyframes moon {
   0% {
-    transform: none;
-    animation-timing-function: cubic-bezier(.25,0,.41,1);
+    -webkit-transform: none;
+            transform: none;
+    -webkit-animation-timing-function: cubic-bezier(0.25, 0, 0.41, 1);
+            animation-timing-function: cubic-bezier(0.25, 0, 0.41, 1);
   }
   100% {
-    transform: rotateZ(-360deg);
-    animation-timing-function: linear;
+    -webkit-transform: rotateZ(-360deg);
+            transform: rotateZ(-360deg);
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
   }
 }
 
@@ -195,5 +275,4 @@ h1 {
     font-size: 10px;
   }
 }
-
-View Compiled
+/*# sourceMappingURL=style.css.map */
