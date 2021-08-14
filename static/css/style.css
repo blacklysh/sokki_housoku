@@ -39,7 +39,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 #mainnav a{
 	color: #000;
 	font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
-	font-size:30px;
+	font-size:20px;
 }
 
 .panel ul{
