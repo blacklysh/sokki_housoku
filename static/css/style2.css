@@ -42,7 +42,11 @@ footer {
 }
 
 .housoku {
+    display: -webkit-flex;
     display: flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    height: 200px;
     align-items: center;/*縦方向中央揃え*/
-    justify-content: center:/*横方向中央揃え*/
+    justify-content: center;/*横方向中央揃え*/
 }
