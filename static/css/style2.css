@@ -1,3 +1,6 @@
+$animation-duration: 5s;
+$highlight-color: #38b449;
+
 body {
     background-color: #000;
     text-align: center;
