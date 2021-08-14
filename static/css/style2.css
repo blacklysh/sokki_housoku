@@ -55,11 +55,12 @@ h1 {
 .post-header {
   background: #22BDA0;
   position: absolute;
-  top: 40%;
+  top: 37%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   left: 0;
   right: 0;
+  bottom: 30%;
 }
 
 .post-header .hero-image {
