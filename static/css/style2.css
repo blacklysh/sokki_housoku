@@ -42,10 +42,6 @@ footer {
 }
 
 .housoku {
-    display: inline-block;
-    background-color: white;
-    text-align: center;
-    position: absolute;
-    top:50vh;
-
+    display: block;
+    
 }
