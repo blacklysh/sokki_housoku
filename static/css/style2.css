@@ -9,6 +9,10 @@ h1 {
     text-align: center;
 }
 
+a {
+    top: 0;
+}
+
 .search_container {
     position:absolute;/*フォームの絶対位置*/	
     left:0;
