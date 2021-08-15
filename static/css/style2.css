@@ -49,6 +49,5 @@ a {
     justify-content: center;/*横方向中央揃え*/
     -webkit-align-items: center;
     align-items: center;/*縦方向中央揃え*/
-    position: absolute;
     top: 100px;
 }
