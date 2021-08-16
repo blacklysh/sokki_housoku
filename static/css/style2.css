@@ -1,5 +1,5 @@
 body {
-    background-img: url("/static/images/haikei4.jpg");
+    background-image: url("/static/images/haikei4.jpg");
     background-size: cover;
     text-align: center;
 }
