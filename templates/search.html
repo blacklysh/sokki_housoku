@@ -7,6 +7,8 @@
 </head>
 <body>
 <h1>{{ title }}</h1>
+<div class="background">
+    </div>
 
 <form method="POST" action="/" class="search_container">
     <input type="text" name="housoku" size=40 placeholder="キーワード検索" >
@@ -15,7 +17,6 @@
 <a href="/index.html">TOPへ</a>
 
 <div class="housoku">
-    <img src="/static/images/haikei3.jpg" class="img_01">
     {% if housoku %}
     <img src="/static/images/{{ housoku }}.png?2021012406" border="4px" alt="速記{{ housoku }}" class="img_02">
     {% else %}
