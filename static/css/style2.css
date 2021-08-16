@@ -58,12 +58,6 @@ a {
             background-size: cover;
      }
      
-     a {
-         position: absolute;
-         top: 100;
-         bottom: 0;
-     }
-     
      .housoku {
             display: -webkit-flex;
             display: flex;
