@@ -12,6 +12,13 @@ a {
     top: 0;
 }
 
+.background {
+    background-img: url("/static/images/haikei3.jpg");
+    background-size: cover;
+    width: 80%;
+    height: 80%;
+}
+
 .search_container {
     position:absolute;/*フォームの絶対位置*/	
     left:0;
