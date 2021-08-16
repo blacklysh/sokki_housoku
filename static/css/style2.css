@@ -54,9 +54,8 @@ a {
 
  @media screen and (max-width: 480px) {
      body {
-            background-image: url("/static/images/haikei4.jpg");
+            background-image: url("/static/images/haikei5.jpg");
             background-size: cover;
-            text-align: center;
      }
      
      a {
