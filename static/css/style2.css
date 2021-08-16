@@ -43,11 +43,21 @@ a {
 }
 
 .housoku {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: center;
-    justify-content: center;/*横方向中央揃え*/
-    -webkit-align-items: center;
-    align-items: center;/*縦方向中央揃え*/
-    padding-top: 100px;
+    width: 80%;
+    height: 80%;
+    position: relative;
+}
+
+.housoku img {
+    position: absolute;
+}
+
+.housoku .img_01 {
+    width: 60%;
+    height: 60%;
+}
+
+.housoku .img_02 {
+    left: 50%;
+    top: 100px;
 }
