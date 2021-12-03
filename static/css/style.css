@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6{font-size:100%;}
 img,abbr,acronym,fieldset{border:0;}
 
 body{
-	font: 14px/1.9 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
+	font-family: sans-serif;
 	font-weight: 300;
 	-webkit-text-size-adjust:100%;
 	overflow-x: hidden;
@@ -38,7 +38,6 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 ------------------------------------------------------------*/
 #mainnav a{
 	color: #000;
-	font-family: 'sans-serif', 'Noto Sans JP',serif;
 	font-size:20px;
 }
 
