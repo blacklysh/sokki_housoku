@@ -36,11 +36,8 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 
 /* ヘッダー
 ------------------------------------------------------------*/
-.sidebar {
-	background-color: gray;
-}
 #mainnav a{
-	color: white;
+	color: black;
 	font-size:25px;
 }
 
