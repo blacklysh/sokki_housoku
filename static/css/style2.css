@@ -79,7 +79,7 @@ a {
         outline: 0;
     }
     .search_container input[type="submit"]{
-        width:70px;/*検索ボタンの横幅*/ 
+        width:75px;/*検索ボタンの横幅*/ 
         height:53px;/*検索ボタンの縦幅*/ 
         position:absolute;/*検索ボタンの絶対位置*/  
         left:250px;/*検索ボタンの位置調整*/  
