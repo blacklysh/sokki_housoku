@@ -20,7 +20,6 @@ a {
     top:0; 	
     outline:0;/*クリック時の青い枠線消す*/	
     height:50px;/*検索ボックスの高さ*/
-    width: 200px;
     background:#eee;/*検索ボックスの背景カラー*/	
 }
 .search_container input[type="text"]{
