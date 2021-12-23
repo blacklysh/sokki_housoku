@@ -228,6 +228,56 @@ section h2 span {
   		height: 40px;
   		margin: 10px;
 	}
+	
+	#menuBtn{
+		display: block;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 18px;
+		height: 2px;
+		margin: -1px 0 0 -7px;
+		background: #000;
+		transition: .2s;
+	}
+	
+	#menuBtn:before, #menuBtn:after{
+		display: block;
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 0;
+		width: 18px;
+		height: 2px;
+		background: #000;
+		transition: .3s;
+	}
+	
+	#menuBtn:before{
+		margin-top: -7px;
+	}
+	
+	#menuBtn:after{
+		margin-top: 5px;
+	}
+	
+	a#menu .close{
+		background: transparent;
+	}
+	
+	a#menu .close:before, a#menu .close:after{
+		margin-top: 0;
+	}
+	
+	a#menu .close:before{
+		transform: rotate(-45deg);
+		-webkit-transform: rptate(-45deg);
+	}
+	
+	a#menu .close:after{
+		transform: rotate(-135deg);
+		-webkit-transform: rptate(-135deg);
+	}
 
 	.panel{
 		width: 100%;
